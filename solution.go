@@ -1,5 +1,11 @@
 package solution
 
-func GetMessage() string {
-	return ""
+import (
+	"github.com/kyokomi/emoji/v2"
+)
+
+func GetMessage() {
+	message := emoji.Sprintf("Hello :world_map:! !")
+	//fmt.Println(message)
+	return message
 }
